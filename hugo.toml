@@ -1,0 +1,21 @@
+theme = "ananke"
+baseURL = "/"
+languageCode = "ru-RU"
+title = "Мой первый сайт на Hugo"
+
+[params]
+  mainSections = ["posts"]
+
+[menu]
+  [[menu.main]]
+    name = "Главная"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Обо мне"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Контакты"
+    url = "/contact/"
+    weight = 3
