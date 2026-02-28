@@ -7,5 +7,5 @@ draft: false
 ## Свяжитесь со мной
 
 - **Email**: julia7online@gmail.com
-- **GitHub**: [github.com/juliasmirnova](https://github.com/juliasmirnova)
+- **GitHub**: [github.com/fairwix](https://github.com/fairwix)
 - **Telegram**: @julia_smirnova
