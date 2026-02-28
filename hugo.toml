@@ -1,21 +1,11 @@
 theme = "ananke"
-baseURL = "/"
+baseURL = "https://fairwix.github.io/my-new-portfolio/"
 languageCode = "ru-RU"
 title = "Мой первый сайт на Hugo"
 
 [params]
   mainSections = ["posts"]
-
-[menu]
-  [[menu.main]]
-    name = "Главная"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Обо мне"
-    url = "/about/"
-    weight = 2
-  [[menu.main]]
-    name = "Контакты"
-    url = "/contact/"
-    weight = 3
+  author = "Your Name"
+  description = "Мой сайт на Hugo"
+  background_color_class = "bg-dark-gray"  # для темы Ananke
+  featured_image = "/images/hero.jpg"      # главное изображение
