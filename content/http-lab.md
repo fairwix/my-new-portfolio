@@ -41,13 +41,13 @@ text
   "origin": "77.234.216.36",
   "url": "http://httpbin.org/get"
 }
-/get-nc.png
+```
+![GET запрос через netcat](/get-nc.png)
 
 2. POST запрос через netcat
 
 Команда:
-
-text
+```
 nc httpbin.org 80
 POST /post HTTP/1.1
 Host: httpbin.org
@@ -55,81 +55,30 @@ Content-Type: application/json
 Content-Length: 27
 
 {"name": "John", "age": 30}
+```
 Ответ сервера:
 
-json
-{
-  "args": {},
-  "data": "{\"name\": \"John\", \"age\": 30}",
-  "files": {},
-  "form": {},
-  "headers": {
-    "Content-Length": "27",
-    "Content-Type": "application/json",
-    "Host": "httpbin.org",
-    "X-Amzn-Trace-Id": "Root=1-69d502de-03e9bc2e2183f9d531086f5f"
-  },
-  "json": {
-    "age": 30,
-    "name": "John"
-  },
-  "origin": "77.234.216.36",
-  "url": "http://httpbin.org/post"
-}
-https:///images/http-lab/post-nc.png
+![POST запрос через netcat](/post-nc.png)
 
 3. GET запрос через cURL
 
 Команда:
-
-bash
+```
 curl http://httpbin.org/get
+```
 Ответ сервера:
 
-json
-{
-  "args": {},
-  "headers": {
-    "Accept": "*/*",
-    "Host": "httpbin.org",
-    "User-Agent": "curl/8.7.1",
-    "X-Amzn-Trace-Id": "Root=1-69d50433-54f3724d5e7e0109325133eb"
-  },
-  "origin": "77.234.216.36",
-  "url": "http://httpbin.org/get"
-}
-https:///images/http-lab/curl-get.png
+![GET через cURL](/curl-get.png)
 
 4. POST запрос через cURL
 
 Команда:
-
-bash
+```
 curl -X POST -H "Content-Type: application/json" -d '{"name":"John","age":30}' http://httpbin.org/post
+```
 Ответ сервера:
 
-json
-{
-  "args": {},
-  "data": "{\"name\":\"John\",\"age\":30}",
-  "files": {},
-  "form": {},
-  "headers": {
-    "Accept": "*/*",
-    "Content-Length": "24",
-    "Content-Type": "application/json",
-    "Host": "httpbin.org",
-    "User-Agent": "curl/8.7.1",
-    "X-Amzn-Trace-Id": "Root=1-69d50448-49352361333d21674c7b5786"
-  },
-  "json": {
-    "age": 30,
-    "name": "John"
-  },
-  "origin": "77.234.216.36",
-  "url": "http://httpbin.org/post"
-}
-https:///images/http-lab/curl-post.png
+![POST через cURL](/curl-post.png)
 
 5. Запрос к API Банка России через Postman
 
@@ -142,9 +91,9 @@ https:///images/http-lab/curl-post.png
 01.04.2026 – 07.04.2026
 
 URL запроса
-
-text
+```
 https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=01/04/2026&date_req2=07/04/2026&VAL_NM_RQ=R01235
+```
 Параметры запроса
 
 Параметр	Значение	Описание
@@ -153,7 +102,7 @@ date_req2	07/04/2026	Конечная дата
 VAL_NM_RQ	R01235	Код валюты (доллар США)
 Результат в Postman
 
-https:///images/http-lab/postman-cbr.png
+![Postman запрос](/postman-cbr.png)
 
 Ответ сервера (XML, фрагмент)
 
