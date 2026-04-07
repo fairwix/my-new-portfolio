@@ -42,8 +42,9 @@ text
   "url": "http://httpbin.org/get"
 }
 ```
-![GET запрос через netcat](/get-nc.png)
+https:///get-nc.png
 
+---
 2. POST запрос через netcat
 
 Команда:
@@ -58,27 +59,90 @@ Content-Length: 27
 ```
 Ответ сервера:
 
-![POST запрос через netcat](/post-nc.png)
+```json
+{
+  "args": {},
+  "data": "{\"name\": \"John\", \"age\": 30}",
+  "files": {},
+  "form": {},
+  "headers": {
+    "Content-Length": "27",
+    "Content-Type": "application/json",
+    "Host": "httpbin.org",
+    "X-Amzn-Trace-Id": "Root=1-69d502de-03e9bc2e2183f9d531086f5f"
+  },
+  "json": {
+    "age": 30,
+    "name": "John"
+  },
+  "origin": "77.234.216.36",
+  "url": "http://httpbin.org/post"
+}
+```
+https:///post-nc.png
+
+---
 
 3. GET запрос через cURL
 
 Команда:
+
 ```
 curl http://httpbin.org/get
 ```
 Ответ сервера:
 
-![GET через cURL](/curl-get.png)
+```json
+{
+  "args": {},
+  "headers": {
+    "Accept": "*/*",
+    "Host": "httpbin.org",
+    "User-Agent": "curl/8.7.1",
+    "X-Amzn-Trace-Id": "Root=1-69d50433-54f3724d5e7e0109325133eb"
+  },
+  "origin": "77.234.216.36",
+  "url": "http://httpbin.org/get"
+}
+```
+https:///curl-get.png
+
+---
 
 4. POST запрос через cURL
 
 Команда:
+
 ```
 curl -X POST -H "Content-Type: application/json" -d '{"name":"John","age":30}' http://httpbin.org/post
 ```
 Ответ сервера:
 
-![POST через cURL](/curl-post.png)
+```json
+{
+  "args": {},
+  "data": "{\"name\":\"John\",\"age\":30}",
+  "files": {},
+  "form": {},
+  "headers": {
+    "Accept": "*/*",
+    "Content-Length": "24",
+    "Content-Type": "application/json",
+    "Host": "httpbin.org",
+    "User-Agent": "curl/8.7.1",
+    "X-Amzn-Trace-Id": "Root=1-69d50448-49352361333d21674c7b5786"
+  },
+  "json": {
+    "age": 30,
+    "name": "John"
+  },
+  "origin": "77.234.216.36",
+  "url": "http://httpbin.org/post"
+}
+```
+https:///curl-post.png
+
+---
 
 5. Запрос к API Банка России через Postman
 
@@ -94,19 +158,13 @@ URL запроса
 ```
 https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=01/04/2026&date_req2=07/04/2026&VAL_NM_RQ=R01235
 ```
-Параметры запроса
-
-Параметр	Значение	Описание
-date_req1	01/04/2026	Начальная дата
-date_req2	07/04/2026	Конечная дата
-VAL_NM_RQ	R01235	Код валюты (доллар США)
 Результат в Postman
 
-![Postman запрос](/postman-cbr.png)
+https:///postman-cbr.png
 
 Ответ сервера (XML, фрагмент)
 
-xml
+```xml
 <?xml version="1.0" encoding="windows-1251"?>
 <ValCurs ID="R01235" DateTimeFormat="dd.MM.yyyy">
   <Record Date="01.04.2026" Id="R01235">
@@ -125,10 +183,7 @@ xml
     <VunitRate>80,5000</VunitRate>
   </Record>
 </ValCurs>
-Анализ полученных данных
+```
 
-Дата	Курс USD (руб.)
-01.04.2026	81,2504
-02.04.2026	80,6234
-03.04.2026	80,5000
-Наблюдение: Курс доллара за указанный период снизился с 81,25 до 80,50 рублей.
+
+
