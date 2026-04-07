@@ -42,7 +42,7 @@ Host: httpbin.org
   "url": "http://httpbin.org/get"
 }
 ```
-![GET запрос через netcat](/images/http-lab/get-nc.png)
+![GET запрос через netcat](https://i.postimg.cc/1ncJh6QJ/get-nc.png)
 
 <img src="/images/http-lab/get-nc.png" alt="GET запрос">
 
