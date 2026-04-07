@@ -44,6 +44,9 @@ Host: httpbin.org
 ```
 ![GET запрос через netcat](/images/http-lab/get-nc.png)
 
+<img src="/images/http-lab/get-nc.png" alt="GET запрос">
+
+![GET запрос]([url=https://postimg.cc/1ncJh6QJ][img]https://i.postimg.cc/1ncJh6QJ/get-nc.png[/img][/url])
 ---
 2. POST запрос через netcat
 
