@@ -21,6 +21,15 @@ weight: 4
 
 ---
 
+![GET запрос через netcat](https://i.postimg.cc/1ncJh6QJ/get-nc.png)
+
+![POST запрос через netcat](https://i.postimg.cc/r0CQXWk3/post-nc.png)
+
+![GET через cURL](https://i.postimg.cc/jwrZFcGv/curl-get.png)
+
+![POST через cURL](https://i.postimg.cc/ZBFVt3Sj/curl-post.png)
+
+![Postman запрос](https://i.postimg.cc/WF6XLrVV/postman-cbr.png)
 ## 1. GET запрос через netcat
 
 **Команда:**
