@@ -20,20 +20,6 @@ weight: 4
 | **Postman** | Работа с API в графическом интерфейсе |
 
 ---
-![GET запрос через netcat](/images/http-lab/get-nc.png)
-
-![POST запрос через netcat](/images/http-lab/post-nc.png)
-
-![GET через cURL](/images/http-lab/curl-get.png)
-
-![POST через cURL](/images/http-lab/curl-post.png)
-
-![Postman запрос](/images/http-lab/postman-cbr.png)
-<img src="/images/http-lab/get-nc.png" alt="GET netcat">
-<img src="/images/http-lab/post-nc.png" alt="POST netcat">
-<img src="/images/http-lab/curl-get.png" alt="curl GET">
-<img src="/images/http-lab/curl-post.png" alt="curl POST">
-<img src="/images/http-lab/postman-cbr.png" alt="Postman">
 
 ## 1. GET запрос через netcat
 
@@ -56,6 +42,7 @@ Host: httpbin.org
   "url": "http://httpbin.org/get"
 }
 ```
+![GET netcat](https://raw.githubusercontent.com/fairwix/my-new-portfolio/main/get-nc.png)
 ---
 2. POST запрос через netcat
 
@@ -91,8 +78,7 @@ Content-Length: 27
   "url": "http://httpbin.org/post"
 }
 ```
-![POST запрос через netcat](/images/http-lab/post-nc.png)
-![POST запрос через netcat](https://i.postimg.cc/r0CQXWk3/post-nc.png)
+![POST netcat](https://raw.githubusercontent.com/fairwix/my-new-portfolio/main/post-nc.png)
 
 ---
 
@@ -118,7 +104,7 @@ curl http://httpbin.org/get
   "url": "http://httpbin.org/get"
 }
 ```
-![GET через cURL](/images/http-lab/curl-get.png)
+![GET curl](https://raw.githubusercontent.com/fairwix/my-new-portfolio/main/curl-get.png)
 
 ---
 
@@ -153,7 +139,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"name":"John","age":30}' h
   "url": "http://httpbin.org/post"
 }
 ```
-![POST через cURL](/images/http-lab/curl-post.png)
+![POST curl](https://raw.githubusercontent.com/fairwix/my-new-portfolio/main/curl-post.png)
 
 ---
 
@@ -173,7 +159,7 @@ https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=01/04/2026&date_req2=07/04/
 ```
 Результат в Postman
 
-![Postman запрос](/images/http-lab/postman-cbr.png)
+![Postman](https://raw.githubusercontent.com/fairwix/my-new-portfolio/main/postman-cbr.png)
 
 Ответ сервера (XML, фрагмент)
 
