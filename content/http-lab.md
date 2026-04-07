@@ -20,16 +20,21 @@ weight: 4
 | **Postman** | Работа с API в графическом интерфейсе |
 
 ---
+![GET запрос через netcat](/images/http-lab/get-nc.png)
 
-![GET запрос через netcat](https://i.postimg.cc/1ncJh6QJ/get-nc.png)
+![POST запрос через netcat](/images/http-lab/post-nc.png)
 
-![POST запрос через netcat](https://i.postimg.cc/r0CQXWk3/post-nc.png)
+![GET через cURL](/images/http-lab/curl-get.png)
 
-![GET через cURL](https://i.postimg.cc/jwrZFcGv/curl-get.png)
+![POST через cURL](/images/http-lab/curl-post.png)
 
-![POST через cURL](https://i.postimg.cc/ZBFVt3Sj/curl-post.png)
+![Postman запрос](/images/http-lab/postman-cbr.png)
+<img src="/images/http-lab/get-nc.png" alt="GET netcat">
+<img src="/images/http-lab/post-nc.png" alt="POST netcat">
+<img src="/images/http-lab/curl-get.png" alt="curl GET">
+<img src="/images/http-lab/curl-post.png" alt="curl POST">
+<img src="/images/http-lab/postman-cbr.png" alt="Postman">
 
-![Postman запрос](https://i.postimg.cc/WF6XLrVV/postman-cbr.png)
 ## 1. GET запрос через netcat
 
 **Команда:**
