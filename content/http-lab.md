@@ -42,11 +42,6 @@ Host: httpbin.org
   "url": "http://httpbin.org/get"
 }
 ```
-![GET запрос через netcat](https://i.postimg.cc/1ncJh6QJ/get-nc.png)
-
-<img src="/images/http-lab/get-nc.png" alt="GET запрос">
-
-![GET запрос]([url=https://postimg.cc/1ncJh6QJ][img]https://i.postimg.cc/1ncJh6QJ/get-nc.png[/img][/url])
 ---
 2. POST запрос через netcat
 
@@ -83,6 +78,7 @@ Content-Length: 27
 }
 ```
 ![POST запрос через netcat](/images/http-lab/post-nc.png)
+![POST запрос через netcat](https://i.postimg.cc/r0CQXWk3/post-nc.png)
 
 ---
 
