@@ -42,7 +42,7 @@ Host: httpbin.org
   "url": "http://httpbin.org/get"
 }
 ```
-![GET запрос через netcat](/images/get-nc.png)
+![GET запрос через netcat](/images/http-lab/get-nc.png)
 
 ---
 2. POST запрос через netcat
@@ -79,7 +79,7 @@ Content-Length: 27
   "url": "http://httpbin.org/post"
 }
 ```
-![POST запрос через netcat](/images/post-nc.png)
+![POST запрос через netcat](/images/http-lab/post-nc.png)
 
 ---
 
@@ -105,7 +105,7 @@ curl http://httpbin.org/get
   "url": "http://httpbin.org/get"
 }
 ```
-![GET через cURL](/images/curl-get.png)
+![GET через cURL](/images/http-lab/curl-get.png)
 
 ---
 
@@ -140,7 +140,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"name":"John","age":30}' h
   "url": "http://httpbin.org/post"
 }
 ```
-![POST через cURL](/images/curl-post.png)
+![POST через cURL](/images/http-lab/curl-post.png)
 
 ---
 
@@ -160,7 +160,7 @@ https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=01/04/2026&date_req2=07/04/
 ```
 Результат в Postman
 
-![Postman запрос](/images/postman-cbr.png)
+![Postman запрос](/images/http-lab/postman-cbr.png)
 
 Ответ сервера (XML, фрагмент)
 
