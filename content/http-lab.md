@@ -41,7 +41,7 @@ text
   "origin": "77.234.216.36",
   "url": "http://httpbin.org/get"
 }
-https:///images/http-lab/get-nc.png
+/get-nc.png
 
 2. POST запрос через netcat
 
