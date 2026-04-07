@@ -42,7 +42,7 @@ text
   "url": "http://httpbin.org/get"
 }
 ```
-![GET запрос через netcat](/images/get-nc.png)
+[![GET запрос через netcat](/images/get-nc.png)](https://fairwix.github.io/my-new-portfolio/get-nc.png)
 
 ---
 2. POST запрос через netcat
