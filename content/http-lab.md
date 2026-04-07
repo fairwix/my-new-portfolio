@@ -1,3 +1,12 @@
+---
+title: "Лабораторная работа: Протокол HTTP"
+date: 2026-04-07
+draft: false
+description: "Изучение HTTP протокола, отправка GET и POST запросов"
+tags: ["HTTP", "API", "netcat", "curl", "Postman"]
+menu: "main"
+weight: 4
+---
 # Отчёт по лабораторной работе: Протокол HTTP
 ## Цель работы
 Изучить основы протокола HTTP, освоить отправку GET и POST запросов различными инструментами (netcat, cURL, Postman).
@@ -17,7 +26,7 @@ Host: [httpbin.org](https://httpbin.org/)
 
 ### ответ сервера: 
 
-[![[Pasted image 20260407161751.png|508]]](https:///images/http-lab/get-nc.png)
+https:///images/http-lab/get-nc.png
 
 ---
 
@@ -36,7 +45,7 @@ Content-Length: 27
 
 
 **Ответ сервера:**
-[![[Pasted image 20260407161826.png|426]]](https:///images/http-lab/post-nc.png)
+https:///images/http-lab/post-nc.png
 
 ---
 
@@ -49,7 +58,7 @@ bash
 curl http://httpbin.org/get
 
 **Ответ сервера:**
-[![[Pasted image 20260407161857.png|465]]](https:///images/http-lab/curl-get.png)
+https:///curl-get.png
 
 ---
 ## 4. POST запрос через cURL
