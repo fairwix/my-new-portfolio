@@ -24,11 +24,11 @@ weight: 4
 ## 1. GET запрос через netcat
 
 **Команда:**
+```
 nc httpbin.org 80
 GET /get HTTP/1.1
 Host: httpbin.org
-
-text
+```
 
 **Ответ сервера:**
 ```json
@@ -79,7 +79,7 @@ Content-Length: 27
   "url": "http://httpbin.org/post"
 }
 ```
-https:///post-nc.png
+![POST запрос через netcat](/images/post-nc.png)
 
 ---
 
@@ -105,7 +105,7 @@ curl http://httpbin.org/get
   "url": "http://httpbin.org/get"
 }
 ```
-https:///curl-get.png
+![GET через cURL](/images/curl-get.png)
 
 ---
 
@@ -140,7 +140,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"name":"John","age":30}' h
   "url": "http://httpbin.org/post"
 }
 ```
-https:///curl-post.png
+![POST через cURL](/images/curl-post.png)
 
 ---
 
@@ -160,7 +160,7 @@ https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=01/04/2026&date_req2=07/04/
 ```
 Результат в Postman
 
-https:///postman-cbr.png
+![Postman запрос](/images/postman-cbr.png)
 
 Ответ сервера (XML, фрагмент)
 
