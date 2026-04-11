@@ -29,3 +29,8 @@ weight = 3
 name = "HTTP Лаба"
 url = "/http-lab/"
 weight = 4
+
+[[menu.main]]
+name = "JS Таймер"
+url = "/posts/js-timer-explanation/"
+weight = 5
