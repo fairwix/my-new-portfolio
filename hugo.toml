@@ -32,5 +32,5 @@ weight = 4
 
 [[menu.main]]
 name = "JS Таймер"
-url = "/js-timer/"
+url = "https://fairwix.github.io/my-new-portfolio/js-timer/"
 weight = 5
