@@ -64,7 +64,7 @@ npx webpack
 
 Сборка прошла успешно, создан бандл dist/main.js.
 
-![Скриншот сборки webpack](/images/webpack-build.png)
+![Описание](/images/webpack-build.png)
 
 3. Локальный запуск
 
