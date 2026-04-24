@@ -64,7 +64,7 @@ npx webpack
 
 Сборка прошла успешно, создан бандл dist/main.js.
 
-https:///images/webpack-build.png
+![Скриншот сборки webpack](/images/webpack-build.png)
 
 3. Локальный запуск
 
@@ -75,7 +75,7 @@ npx serve .
 ```
 Страница открылась по адресу http://localhost:3000 с крупным отображением даты и времени, стилизованным Bootstrap.
 
-https:///images/local-page.png
+![Локальная страница с часами](/images/local-page.png)
 
 4. Docker-контейнер
 
@@ -100,5 +100,5 @@ docker run -p 3000:3000 luxon-webpack
 ```
 Приложение в контейнере работает идентично локальному запуску.
 
-https:///images/docker-run.png
+![Запуск приложения в Docker](/images/docker-run.png)
 
