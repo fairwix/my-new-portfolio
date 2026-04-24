@@ -37,5 +37,5 @@ weight = 5
 
 [[menu.main]]
 name = "Webpack + Docker"
-url = "/posts/webpack-docker-report/"
+url = "/webpack-docker-report/"
 weight = 6
