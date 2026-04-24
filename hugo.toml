@@ -34,3 +34,8 @@ weight = 4
 name = "JS Таймер"
 url = "https://fairwix.github.io/my-new-portfolio/js-timer/"
 weight = 5
+
+[[menu.main]]
+name = "Webpack + Docker"
+url = "/posts/webpack-docker-report/"
+weight = 6
