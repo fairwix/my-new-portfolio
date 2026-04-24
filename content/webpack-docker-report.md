@@ -64,7 +64,7 @@ npx webpack
 
 Сборка прошла успешно, создан бандл dist/main.js.
 
-![Описание](/images/webpack-build.png)
+![Скриншот сборки webpack](https://raw.githubusercontent.com/fairwix/my-new-portfolio/main/static/images/webpack-build.png)
 
 3. Локальный запуск
 
@@ -75,7 +75,6 @@ npx serve .
 ```
 Страница открылась по адресу http://localhost:3000 с крупным отображением даты и времени, стилизованным Bootstrap.
 
-![Локальная страница с часами](/images/local-page.png)
 
 4. Docker-контейнер
 
@@ -100,5 +99,7 @@ docker run -p 3000:3000 luxon-webpack
 ```
 Приложение в контейнере работает идентично локальному запуску.
 
-![Запуск приложения в Docker](/images/docker-run.png)
+![Запуск приложения в Docker](https://raw.githubusercontent.com/fairwix/my-new-portfolio/main/static/images/docker-run.png)
+
+![Локальная страница с часами](https://raw.githubusercontent.com/fairwix/my-new-portfolio/main/static/images/local-page.png)
 
