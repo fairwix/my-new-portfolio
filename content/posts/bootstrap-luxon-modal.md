@@ -88,7 +88,7 @@ tags: ["bootstrap", "luxon", "docker", "modal"]
 
 ## Внешний вид с открытым окном
 
-![Приложение с модальным окном](https://raw.githubusercontent.com/fairwix/my-new-portfolio/main/static/images/ИМЯ_СКРИНШОТА_ОКНА.png)
+![Приложение с модальным окном](https://raw.githubusercontent.com/fairwix/my-new-portfolio/main/static/images/luxon.png)
 
 ## Последовательность выполненных действий
 
